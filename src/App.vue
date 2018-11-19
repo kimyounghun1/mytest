@@ -6,7 +6,7 @@
     <form v-on:submit.prevent="onSubmit">
       SEARCH : <input type="text" v-model="search"/><br/>
       NAME : <input type="text" v-model="inputName"/>
-      PHONE NUMBER : <input type="text" v-model="inputNumber"/>
+      PHONE NUMBER CLONE : <input type="text" v-model="inputNumber"/>
       <input type="submit" value="ADD" v-on:click="addInput"/>
     </form>
 
